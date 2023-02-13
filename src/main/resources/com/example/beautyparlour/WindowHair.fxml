@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.beautyparlour.ControllerHair">
+   <children>
+      <AnchorPane prefHeight="120.0" prefWidth="800.0" style="-fx-background-color: Black;">
+         <children>
+            <AnchorPane layoutX="300.0" layoutY="19.0" prefHeight="83.0" prefWidth="200.0" style="-fx-background-color: white; -fx-background-radius: 50;">
+               <children>
+                  <Label layoutX="45.0" layoutY="24.0" text="Примеры">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Button fx:id="BExit" layoutX="708.0" layoutY="14.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="78.0" style="-fx-background-color: red; -fx-background-radius: 50;" text="Закрыть" />
+         </children>
+      </AnchorPane>
+      <VBox layoutX="56.0" layoutY="132.0" prefHeight="200.0" prefWidth="688.0" spacing="10.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Picture/1645968889_59-almode-ru-p-korolevskie-pricheski-na-dlinnie-volosi-62.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Picture/hairstyles-2016-men-undercut-1000-images-about-mens-haircuts-on-pinterest-latest-trends-in.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="192.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Picture/1654665828_65-mykaleidoscope-ru-p-visokie-vechernie-pricheski-devushka-krasi-67.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="321.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Picture/probor.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="100.0" prefWidth="200.0" spacing="10.0">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Picture/1654662332_28-mykaleidoscope-ru-p-pricheska-ulitka-na-dlinnie-volosi-devushk-28.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Picture/morrismotley_and-short-textures.jpg" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="192.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@Picture/post_5c68372fc7bbc.jpg" />
+                     </image>
+                  </ImageView>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <Button fx:id="B1" layoutX="374.0" layoutY="461.0" mnemonicParsing="false" text="Продолжить" />
+   </children>
+</Pane>

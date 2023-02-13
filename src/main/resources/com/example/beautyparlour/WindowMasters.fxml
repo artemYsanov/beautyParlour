@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.beautyparlour.ControllerMasters">
+   <children>
+      <ImageView fitHeight="473.0" fitWidth="885.0" layoutX="-42.0" layoutY="126.0" opacity="0.5">
+         <image>
+            <Image url="@Picture/0ffdd84f-4e06-4a50-ac97-bed25a1827b3.png" />
+         </image>
+      </ImageView>
+      <AnchorPane prefHeight="120.0" prefWidth="800.0" style="-fx-background-color: black;">
+         <children>
+            <AnchorPane layoutX="247.0" layoutY="23.0" prefHeight="74.0" prefWidth="307.0" style="-fx-background-color: white; -fx-background-radius: 50;">
+               <children>
+                  <Label layoutX="48.0" layoutY="19.0" text="Выберите мастера">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Button fx:id="BExit" layoutX="724.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: red; -fx-background-radius: 50;" text="Закрыть" />
+         </children>
+      </AnchorPane>
+      <VBox alignment="CENTER" layoutX="14.0" layoutY="126.0" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+         <children>
+            <ImageView fitHeight="187.0" fitWidth="185.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Picture/153205af5f852a3c9db1b3fc18af63e0.jpg" />
+               </image>
+            </ImageView>
+            <Label text="Светлана">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Button fx:id="B1" mnemonicParsing="false" text="Выбрать" />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="199.0" layoutY="120.0" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+         <children>
+            <ImageView fitHeight="187.0" fitWidth="185.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Picture/1663497714_1-phonoteka-org-p-parikmakher-art-instagram-1.jpg" />
+               </image>
+            </ImageView>
+            <Label text="Анастасия">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Button fx:id="B2" mnemonicParsing="false" text="Выбрать" />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="384.0" layoutY="120.0" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+         <children>
+            <ImageView fitHeight="187.0" fitWidth="185.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Picture/1663497723_22-phonoteka-org-p-parikmakher-art-instagram-24.jpg" />
+               </image>
+            </ImageView>
+            <Label text="Жанна">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Button fx:id="B3" mnemonicParsing="false" text="Выбрать" />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="569.0" layoutY="120.0" prefHeight="200.0" prefWidth="100.0" spacing="10.0">
+         <children>
+            <ImageView fitHeight="187.0" fitWidth="185.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Picture/ed5368b2113b96e25646d6bea1e2b10e.jpg" />
+               </image>
+            </ImageView>
+            <Label text="Татьяна">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Button fx:id="B4" mnemonicParsing="false" text="Выбрать" />
+         </children>
+      </VBox>
+   </children>
+</Pane>

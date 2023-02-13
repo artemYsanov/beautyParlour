@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.beautyparlour.ControllerStart">
+   <children>
+      <ImageView fitHeight="500.0" fitWidth="800.0">
+         <image>
+            <Image url="@Picture/Фон.jpg" />
+         </image>
+      </ImageView>
+      <HBox layoutX="228.0" layoutY="369.0" prefHeight="25.0" prefWidth="345.0" spacing="171.0">
+         <children>
+            <Button fx:id="B1" mnemonicParsing="false" prefHeight="25.0" prefWidth="89.0" text="Авторизация" />
+            <Button fx:id="B2" mnemonicParsing="false" prefHeight="25.0" prefWidth="86.0" text="Регистрация" />
+         </children>
+      </HBox>
+      <VBox layoutX="228.0" layoutY="286.0" prefHeight="50.0" prefWidth="345.0" spacing="15.0">
+         <children>
+            <TextField fx:id="TF1" promptText="Login" />
+            <PasswordField fx:id="PF1" promptText="Password" />
+         </children>
+      </VBox>
+      <Button fx:id="BExit" layoutX="700.0" layoutY="14.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="86.0" style="-fx-background-color: #FF2222; -fx-border-color: Black; -fx-background-radius: 50; -fx-border-radius: 50;" text="Закрыть" textAlignment="CENTER" textFill="WHITE" />
+      <ImageView fitHeight="183.0" fitWidth="183.0" layoutX="309.0" layoutY="93.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Picture/1653598678_49-kartinkin-net-p-logotip-salona-krasoti-kartinki-51-transformed.png" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.beautyparlour.ControllerAgentTelephone">
+   <children>
+      <AnchorPane layoutX="1.0" prefHeight="100.0" prefWidth="800.0" style="-fx-background-color: pink;">
+         <children>
+            <Button fx:id="B1" layoutX="644.0" layoutY="18.0" mnemonicParsing="false" text="Вернуться" />
+            <Button fx:id="BExit" layoutX="724.0" layoutY="16.0" mnemonicParsing="false" prefHeight="29.0" prefWidth="62.0" style="-fx-background-color: red; -fx-border-color: black; -fx-background-radius: 50; -fx-border-radius: 50;" text="Закрыть" textAlignment="CENTER" />
+            <ImageView fitHeight="93.0" fitWidth="90.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Picture/1653598678_49-kartinkin-net-p-logotip-salona-krasoti-kartinki-51-transformed.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <Separator layoutY="97.0" prefHeight="0.0" prefWidth="800.0" />
+      <ImageView fitHeight="301.0" fitWidth="800.0" layoutY="99.0">
+         <image>
+            <Image url="@Picture/1627155688_11-kartinkin-com-p-parikmakherskie-instrumenti-fon-krasivo-12.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="256.0" layoutY="209.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Спасибо, что выбрали нас!!!" wrappingWidth="289.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Text>
+      <TextField layoutX="256.0" layoutY="156.0" prefHeight="25.0" prefWidth="245.0" promptText="+7(900)-900-90-00" />
+      <Button layoutX="501.0" layoutY="156.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="42.0" text="OK" />
+      <Label layoutX="161.0" layoutY="113.0" text="Оставьте свой номер, чтобы мы связались с Вами.">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>
